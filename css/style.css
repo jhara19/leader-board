@@ -1,0 +1,77 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 150%;
+    background:#f3f1ff;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 870px;
+    margin: 0 auto;
+    height: 100%;
+}
+.flexible{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*============ GLOBAL CSS ===========*/
+nav{
+    background:#562EFF ;
+    height: 94px;
+}
+.logo-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-left a img{
+    width: 41px;
+    height: 51px;
+    margin-right: 15px;
+}
+
+.logo-left a{
+    color:#fff;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+} 
+.menu-right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu-right ul li {
+    margin-left: 40px;
+    
+}
+.menu-right li a{
+    color:#fff;
+    font-size:16px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.menu-right li a{}
+.menu-right li a img{
+    width: 51px;
+    height: 51px;
+}
+/*==================  HEADER STYLE END ============================*/
+
+
+
+
+/*==================  HEADER STYLE END ============================*/
